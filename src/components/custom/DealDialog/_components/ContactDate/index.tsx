@@ -44,7 +44,7 @@ export function ContactDatePicker() {
       setValue("contactDate", date); // Ensure the default date is set in the form
     }
     clearErrors("contactDate"); // Clear any errors related to the date
-  }, [selectedSale, setValue, date, clearErrors]);
+  }, []);
 
   return (
     <div className="flex flex-col gap-2">

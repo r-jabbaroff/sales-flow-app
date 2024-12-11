@@ -170,7 +170,6 @@ export default function SalesDialog() {
     } else {
       methods.reset({ saleValue: 0.0, customerName: "" });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [openDealDialog, selectedSale]);
 
   return (
@@ -233,7 +232,7 @@ export default function SalesDialog() {
               <Button className="h-11 px-11 max-sm:w-full">
                 {isLoading
                   ? "loading..."
-                  : `${selectedSale ? "Save" : "Add Sale"}`}
+                  : `${selectedSale ? "Edit Sale" : "Add Sale"}`}
               </Button>
             </DialogFooter>
           </form>
