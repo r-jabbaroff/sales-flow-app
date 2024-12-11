@@ -36,7 +36,7 @@ export default function PaginationArea({
 
   return (
     <div
-      className={`relative flex h-[80px] w-full items-center justify-between overflow-hidden px-6 max-sm:h-[206px] max-sm:pb-4 max-sm:pt-4 ${bgColor} border-t max-sm:flex-col max-sm:gap-2`}
+      className={`relative flex h-[80px] w-full items-center justify-between overflow-hidden border-t bg-gray-50 px-6 dark:bg-gray-900 max-sm:h-[206px] max-sm:flex-col max-sm:gap-2 max-sm:pb-4 max-sm:pt-4`}
     >
       <PaginationSelection
         pagination={pagination}
