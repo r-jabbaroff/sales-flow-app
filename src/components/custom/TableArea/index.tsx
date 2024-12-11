@@ -68,7 +68,7 @@ export default function TableArea({ searchQuery }: { searchQuery: string }) {
 
   useEffect(() => {
     loadAllSales();
-  }, []);
+  }, [loadAllSales]);
 
   // Filter data based on the active tab
   const filteredData = useMemo(() => {

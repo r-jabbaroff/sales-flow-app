@@ -170,6 +170,7 @@ export default function SalesDialog() {
     } else {
       methods.reset({ saleValue: 0.0, customerName: "" });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [openDealDialog, selectedSale]);
 
   return (
