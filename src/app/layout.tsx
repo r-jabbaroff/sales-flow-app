@@ -12,7 +12,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "SalesFlow App | ShowCase",
-  description: "ShowCase",
+  description: "Jabbaroff's Portfolio",
 };
 
 export default function RootLayout({
