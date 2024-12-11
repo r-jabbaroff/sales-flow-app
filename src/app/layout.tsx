@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "SalesFlow App",
+  title: "SalesFlow App | ShowCase",
   description: "ShowCase",
 };
 
