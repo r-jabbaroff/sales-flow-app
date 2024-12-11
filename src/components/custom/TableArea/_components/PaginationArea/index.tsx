@@ -24,7 +24,7 @@ export default function PaginationArea({
   const { theme } = useTheme();
   const [isClient, setIsClient] = useState(false);
 
-  const bgColor = theme === "dark" ? "bg-gray-900" : "bg-white";
+  const bgColor = theme === "dark" ? "bg-gray-900" : "bg-gray-50";
 
   useEffect(() => {
     setIsClient(true);
