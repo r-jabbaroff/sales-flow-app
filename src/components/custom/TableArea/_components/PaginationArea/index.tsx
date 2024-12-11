@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { GrFormPrevious, GrFormNext } from "react-icons/gr";
 import { BiFirstPage, BiLastPage } from "react-icons/bi";
 
-import { useTheme } from "next-themes";
 import PaginationSelection from "../PaginationSelection";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { Table } from "@tanstack/react-table";
@@ -21,7 +20,6 @@ export default function PaginationArea({
   pagination: PaginationType;
   setPagination: Dispatch<SetStateAction<PaginationType>>;
 }) {
-  const { theme } = useTheme();
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
